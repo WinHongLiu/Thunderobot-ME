@@ -1,0 +1,95 @@
+7:581  0:313  Found UEFI Acpi 2.0 RSDP at 89C0D014
+7:581  0:000  Saving ACPI tables from RSDP 89C0D014 to EFI\CLOVER\ACPI\origin ...
+7:581  0:000   89C0D014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:581  0:000    (Xsdt: 89BF2188, Rsdt: 89BF20C4)
+7:581  0:000    89BF2188: 'XSDT', 'computer', Rev: 1, Len: 228
+7:581  0:000    89BF20C4: 'RSDT', 'computer', Rev: 1, Len: 132
+7:581  0:000    Tables in Xsdt: 24
+7:581  0:000    0. 89BF6000: 'FACP', 'computer', Rev: 5, Len: 268
+7:581  0:000        (Dsdt: 89BC3000, Facs: 89B0C000, XDsdt: 89BC3000, XFacs: 0)
+7:581  0:000        89BC3000: 'DSDT', 'computer', Rev: 2, Len: 191338
+7:583  0:002        89B0C000: 'FACS', Ver: 2, Len: 64
+7:583  0:000    1. 89C0A000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+7:583  0:000    2. 89C06000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12614
+7:583  0:000    3. 89C04000: 'SSDT', 'PegSsdt', Rev: 2, Len: 6287
+7:583  0:000    4. 89C02000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1135
+7:583  0:000    5. 89C01000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+7:583  0:000    6. 89BFB000: 'SSDT', 'PtidDevc', Rev: 2, Len: 5738
+7:583  0:000    7. 89BF8000: 'SSDT', 'PerfTune', Rev: 2, Len: 1114
+7:583  0:000    8. 89BBE000: 'SSDT', 'NvdTable', Rev: 1, Len: 13784
+7:583  0:000    9. 89C0C000: 'UEFI', 'computer', Rev: 1, Len: 566
+7:583  0:000    10. 89C03000: 'UEFI', 'computer', Rev: 1, Len: 66
+7:583  0:000    11. 89C00000: 'TPM2', 'computer', Rev: 3, Len: 52
+7:583  0:000    12. 89BFF000: 'MSDM', 'computer', Rev: 3, Len: 85
+7:583  0:000    13. 89BFE000: 'LPIT', 'computer', Rev: 1, Len: 92
+7:583  0:000    14. 89BFD000: 'WSMT', 'computer', Rev: 1, Len: 40
+7:583  0:000    15. 89BFA000: 'DBGP', 'computer', Rev: 1, Len: 52
+7:583  0:000    16. 89BF9000: 'DBG2', 'computer', Rev: 0, Len: 97
+7:583  0:000    17. 89BF7000: 'ASF!', 'computer', Rev: 32, Len: 165
+7:583  0:000    18. 89BF5000: 'HPET', 'computer', Rev: 1, Len: 56
+7:583  0:000    19. 89BF4000: 'APIC', 'computer', Rev: 3, Len: 300
+7:583  0:000    20. 89BF3000: 'MCFG', 'computer', Rev: 1, Len: 60
+7:583  0:000    21. 89BC2000: 'DMAR', 'computer', Rev: 1, Len: 168
+7:583  0:000    22. 89BBD000: 'FPDT', 'computer', Rev: 1, Len: 68
+7:583  0:000    23. 89BBC000: 'BGRT', 'computer', Rev: 1, Len: 56
+7:583  0:000    Tables in Rsdt: 24
+7:583  0:000    0. 89BF6000: 'FACP', 'computer', Rev: 5, Len: 268
+7:583  0:000        (Dsdt: 89BC3000, Facs: 89B0C000, XDsdt: 89BC3000, XFacs: 0)
+7:583  0:000        89BC3000: 'DSDT', 'computer', Rev: 2, Len: 191338
+7:585  0:002        89B0C000: 'FACS', Ver: 2, Len: 64
+7:585  0:000    1. 89C0A000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+7:585  0:000    2. 89C06000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12614
+7:585  0:000    3. 89C04000: 'SSDT', 'PegSsdt', Rev: 2, Len: 6287
+7:585  0:000    4. 89C02000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1135
+7:585  0:000    5. 89C01000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+7:585  0:000    6. 89BFB000: 'SSDT', 'PtidDevc', Rev: 2, Len: 5738
+7:585  0:000    7. 89BF8000: 'SSDT', 'PerfTune', Rev: 2, Len: 1114
+7:585  0:000    8. 89BBE000: 'SSDT', 'NvdTable', Rev: 1, Len: 13784
+7:585  0:000    9. 89C0C000: 'UEFI', 'computer', Rev: 1, Len: 566
+7:585  0:000    10. 89C03000: 'UEFI', 'computer', Rev: 1, Len: 66
+7:585  0:000    11. 89C00000: 'TPM2', 'computer', Rev: 3, Len: 52
+7:585  0:000    12. 89BFF000: 'MSDM', 'computer', Rev: 3, Len: 85
+7:585  0:000    13. 89BFE000: 'LPIT', 'computer', Rev: 1, Len: 92
+7:585  0:000    14. 89BFD000: 'WSMT', 'computer', Rev: 1, Len: 40
+7:585  0:000    15. 89BFA000: 'DBGP', 'computer', Rev: 1, Len: 52
+7:585  0:000    16. 89BF9000: 'DBG2', 'computer', Rev: 0, Len: 97
+7:585  0:000    17. 89BF7000: 'ASF!', 'computer', Rev: 32, Len: 165
+7:585  0:000    18. 89BF5000: 'HPET', 'computer', Rev: 1, Len: 56
+7:585  0:000    19. 89BF4000: 'APIC', 'computer', Rev: 3, Len: 300
+7:585  0:000    20. 89BF3000: 'MCFG', 'computer', Rev: 1, Len: 60
+7:585  0:000    21. 89BC2000: 'DMAR', 'computer', Rev: 1, Len: 168
+7:585  0:000    22. 89BBD000: 'FPDT', 'computer', Rev: 1, Len: 68
+7:585  0:000    23. 89BBC000: 'BGRT', 'computer', Rev: 1, Len: 56
+7:585  0:000  Found UEFI Acpi 1.0 RSDP at 89C0D000
+7:585  0:000  Printing ACPI tables from RSDP 89C0D000 ...
+7:585  0:000   89C0D000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+7:585  0:000    (Rsdt: 89BF2000)
+7:585  0:000    89BF2000: 'RSDT', 'computer', Rev: 1, Len: 132
+7:585  0:000    Tables in Rsdt: 24
+7:585  0:000    0. 89BF6000: 'FACP', 'computer', Rev: 5, Len: 268
+7:585  0:000        (Dsdt: 89BC3000, Facs: 89B0C000, XDsdt: 89BC3000, XFacs: 0)
+7:585  0:000        89BC3000: 'DSDT', 'computer', Rev: 2, Len: 191338
+7:588  0:002        89B0C000: 'FACS', Ver: 2, Len: 64
+7:588  0:000    1. 89C0A000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+7:588  0:000    2. 89C06000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12614
+7:588  0:000    3. 89C04000: 'SSDT', 'PegSsdt', Rev: 2, Len: 6287
+7:588  0:000    4. 89C02000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1135
+7:588  0:000    5. 89C01000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+7:588  0:000    6. 89BFB000: 'SSDT', 'PtidDevc', Rev: 2, Len: 5738
+7:588  0:000    7. 89BF8000: 'SSDT', 'PerfTune', Rev: 2, Len: 1114
+7:588  0:000    8. 89BBE000: 'SSDT', 'NvdTable', Rev: 1, Len: 13784
+7:588  0:000    9. 89C0C000: 'UEFI', 'computer', Rev: 1, Len: 566
+7:588  0:000    10. 89C03000: 'UEFI', 'computer', Rev: 1, Len: 66
+7:588  0:000    11. 89C00000: 'TPM2', 'computer', Rev: 3, Len: 52
+7:588  0:000    12. 89BFF000: 'MSDM', 'computer', Rev: 3, Len: 85
+7:588  0:000    13. 89BFE000: 'LPIT', 'computer', Rev: 1, Len: 92
+7:588  0:000    14. 89BFD000: 'WSMT', 'computer', Rev: 1, Len: 40
+7:588  0:000    15. 89BFA000: 'DBGP', 'computer', Rev: 1, Len: 52
+7:588  0:000    16. 89BF9000: 'DBG2', 'computer', Rev: 0, Len: 97
+7:588  0:000    17. 89BF7000: 'ASF!', 'computer', Rev: 32, Len: 165
+7:588  0:000    18. 89BF5000: 'HPET', 'computer', Rev: 1, Len: 56
+7:588  0:000    19. 89BF4000: 'APIC', 'computer', Rev: 3, Len: 300
+7:588  0:000    20. 89BF3000: 'MCFG', 'computer', Rev: 1, Len: 60
+7:588  0:000    21. 89BC2000: 'DMAR', 'computer', Rev: 1, Len: 168
+7:588  0:000    22. 89BBD000: 'FPDT', 'computer', Rev: 1, Len: 68
+7:588  0:000    23. 89BBC000: 'BGRT', 'computer', Rev: 1, Len: 56
